@@ -20,5 +20,3 @@ PhD student in Political Science at **Penn State**, studying security, conflict,
 ## Find me
 
 - 🌐 Portfolio: https://pbc5320.github.io/AboutMe/
-- 💼 LinkedIn: https://www.linkedin.com/in/YOUR-HANDLE
-- ✉️ YOUR-EMAIL
