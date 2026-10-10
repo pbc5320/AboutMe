@@ -1,7 +1,7 @@
 :root{
   color-scheme:dark;
-  --bg:#0e1319; --ink:#e6ebf2; --muted:#93a1b3; --line:#232c38;
-  --accent:#4fd1c5; --accent2:#f0a84b; --card:#151c25; --soft:#1a232e;
+  --bg:#222a33; --ink:#d9dfe6; --muted:#9aa7b4; --line:#34404c;
+  --accent:#84c9bf; --accent2:#dcb67f; --card:#2a343f; --soft:#303b47;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -29,7 +29,7 @@ h1{font-size:clamp(34px,6vw,52px);line-height:1.1;margin:10px 0 16px;letter-spac
 .lede{font-size:20px;color:var(--muted);margin:0}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;font:600 15px system-ui,sans-serif}
 .btn{padding:11px 20px;border-radius:8px;border:1px solid color-mix(in srgb,var(--accent) 55%,transparent);color:var(--accent)}
-.btn.primary{background:var(--accent);color:#07121a;font-weight:700}
+.btn.primary{background:var(--accent);color:#1b2229;font-weight:700}
 .btn:hover{opacity:.88;border-color:var(--accent)}
 
 /* sections */
