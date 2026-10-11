@@ -114,3 +114,19 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-off
 /* cream and blue accents */
 .site-header{border-top:4px solid var(--accent)}
 .portrait{box-shadow:0 0 0 4px var(--soft)}
+
+/* contact form */
+.form{max-width:640px}
+.form .field{margin-bottom:18px}
+.form label{display:block;font:600 14px system-ui,sans-serif;margin-bottom:6px;color:var(--ink)}
+.form input[type="text"],.form input[type="email"],.form textarea{width:100%;font:16px/1.5 Georgia,"Times New Roman",serif;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:11px 13px}
+.form input:focus,.form textarea:focus{outline:3px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.form textarea{resize:vertical;min-height:140px}
+.form button[type="submit"]{cursor:pointer;font:600 15px system-ui,sans-serif}
+.form button[disabled]{opacity:.6;cursor:progress}
+.form .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.form-status{margin:14px 0 0;font:600 14.5px system-ui,sans-serif;min-height:1.4em}
+.form-status.ok{color:var(--accent)}
+.form-status.err{color:#c2410c}
+:root[data-theme="dark"] .form-status.err{color:#f4a27a}
+:root[data-theme="contrast"] .form-status.err{color:#ffb38a}
