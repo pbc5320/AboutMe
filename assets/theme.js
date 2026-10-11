@@ -1,8 +1,8 @@
 (function () {
   var KEY = 'pc-theme';
   var THEMES = [
+    ['cream', 'Cream & blue'],
     ['dark', 'Soft dark'],
-    ['light', 'Light'],
     ['contrast', 'High contrast']
   ];
   function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
@@ -10,7 +10,7 @@
   function valid(v) { return THEMES.some(function (t) { return t[0] === v; }); }
 
   var current = read();
-  if (!valid(current)) current = 'dark';
+  if (!valid(current)) current = 'cream';
   document.documentElement.setAttribute('data-theme', current);
 
   function apply(v) {

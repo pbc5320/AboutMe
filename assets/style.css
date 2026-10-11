@@ -1,12 +1,12 @@
-:root,:root[data-theme="dark"]{
+:root,:root[data-theme="cream"]{
+  color-scheme:light;
+  --bg:#fbf7ee; --ink:#1e2b44; --muted:#52627d; --line:#dfd8c6;
+  --accent:#2c5aa0; --accent2:#3a69ad; --card:#fffdf8; --soft:#e8eef7; --on-accent:#ffffff;
+}
+:root[data-theme="dark"]{
   color-scheme:dark;
   --bg:#222a33; --ink:#d9dfe6; --muted:#9aa7b4; --line:#34404c;
   --accent:#84c9bf; --accent2:#dcb67f; --card:#2a343f; --soft:#303b47; --on-accent:#1b2229;
-}
-:root[data-theme="light"]{
-  color-scheme:light;
-  --bg:#f5f2ea; --ink:#262c34; --muted:#59636f; --line:#d9d3c5;
-  --accent:#1b6b64; --accent2:#8f5f16; --card:#fffdf8; --soft:#ebe6da; --on-accent:#ffffff;
 }
 :root[data-theme="contrast"]{
   color-scheme:dark;
@@ -110,3 +110,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-off
 @media (max-width:680px){
   .display-panel{left:0;right:auto;max-width:calc(100vw - 44px)}
 }
+
+/* cream and blue accents */
+.site-header{border-top:4px solid var(--accent)}
+.portrait{box-shadow:0 0 0 4px var(--soft)}
